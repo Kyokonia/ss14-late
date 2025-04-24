@@ -1,0 +1,8 @@
+- type: polymorph
+  id: VampireBat
+  configuration:
+    entity: MobBat 
+    transferName: true
+    inventory: None
+    revertOnDeath: true
+    revertOnCrit: true

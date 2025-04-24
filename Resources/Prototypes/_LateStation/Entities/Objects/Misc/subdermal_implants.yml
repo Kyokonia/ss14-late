@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: VampireBatImplant
+  name: Vampire Bat Implant
+  description: This implant lets the user polymorph into a bat.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionActivateVampireBatImplant
+      permanent: true
+      whitelist:
+        components:
+        - HumanoidAppearance
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: BikeHorn
+        params:
+          variation: 0.125
+    - type: Tag
+      tags:
+      - BikeHorn
