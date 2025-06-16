@@ -16,7 +16,7 @@
     requirement:
       !type:DepartmentTimeRequirement
       department: Engineering
-      time: 10800 # 60 hrs
+      time: 10800 # 6h
 
 # Head
 - type: startingGear
