@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Polymorph; // Latestation - Vampire Bat
 using Content.Shared.Whitelist;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -96,3 +97,15 @@ public sealed partial class UseDnaScramblerImplantEvent : InstantActionEvent
 {
 
 }
+
+// Start Latestation - VampireBatImplant
+
+/// <summary>
+/// used for morphing into a given entity
+/// </summary>
+public sealed partial class UseVampireBatImplantEvent : InstantActionEvent
+{
+    [DataField("polymorphConfiguration")]
+    public PolymorphConfiguration PolymorphConfiguration;
+}
+// End Latestation

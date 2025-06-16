@@ -1,6 +1,6 @@
 - type: entity
   id: VampireBatImplanter
-  suffix: vampireBat
+  suffix: vampire bat
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter

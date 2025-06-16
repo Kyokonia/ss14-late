@@ -27,6 +27,7 @@ using Content.Shared.DetailExaminable;
 using Content.Shared.Store.Components;
 using Robust.Shared.Collections;
 using Robust.Shared.Map.Components;
+using Content.Server.Polymorph.Systems;
 
 namespace Content.Server.Implants;
 
@@ -45,6 +46,7 @@ public sealed class SubdermalImplantSystem : SharedSubdermalImplantSystem
     [Dependency] private readonly EntityLookupSystem _lookupSystem = default!;
     [Dependency] private readonly SharedMapSystem _mapSystem = default!;
     [Dependency] private readonly IdentitySystem _identity = default!;
+    [Dependency] private readonly PolymorphSystem _polymorph = default!; // Latestation - Vampire Bat Implant
 
     private EntityQuery<PhysicsComponent> _physicsQuery;
     private HashSet<Entity<MapGridComponent>> _targetGrids = [];
@@ -60,6 +62,7 @@ public sealed class SubdermalImplantSystem : SharedSubdermalImplantSystem
         SubscribeLocalEvent<SubdermalImplantComponent, ActivateImplantEvent>(OnActivateImplantEvent);
         SubscribeLocalEvent<SubdermalImplantComponent, UseScramImplantEvent>(OnScramImplant);
         SubscribeLocalEvent<SubdermalImplantComponent, UseDnaScramblerImplantEvent>(OnDnaScramblerImplant);
+        SubscribeLocalEvent<SubdermalImplantComponent, UseVampireBatImplantEvent>(OnVampireBatImplant); // Latestation - Vampire Bat Implant
 
     }
 
@@ -228,5 +231,15 @@ public sealed class SubdermalImplantSystem : SharedSubdermalImplantSystem
 
         args.Handled = true;
         QueueDel(uid);
+    }
+
+    private void OnVampireBatImplant(EntityUid uid, SubdermalImplantComponent component, UseVampireBatImplantEvent args)
+    {
+        if (component.ImplantedEntity is not { } ent)
+            return;
+
+        _polymorph.PolymorphEntity(uid, args.PolymorphConfiguration);
+
+        args.Handled = true;
     }
 }

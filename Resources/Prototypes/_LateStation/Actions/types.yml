@@ -1,15 +1,13 @@
 - type: entity
-  id: ActionActivateVampireBat
+  id: ActionActivateVampireBatImplant
   name: Bat!
   description: Morphes you into a bat!
   components:
   - type: InstantAction
     checkCanInteract: false
-    charges: 2
-    useDelay: 5
     itemIconStyle: BigAction
     priority: -20
     icon:
       sprite: Structures/Specific/anomaly.rsi
       state: anom4
-    event: !type:UseScramImplantEvent
+    event: !type:UseVampireBatImplantEvent

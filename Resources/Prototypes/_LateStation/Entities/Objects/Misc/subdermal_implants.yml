@@ -7,6 +7,8 @@
   components:
     - type: SubdermalImplant
       implantAction: ActionActivateVampireBatImplant
+      UseVampireBatImplantEvent:
+        polymorphConfiguration: VampireBat
       permanent: true
       whitelist:
         components:
