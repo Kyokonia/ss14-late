@@ -703,3 +703,475 @@ Entries:
       message: A lot of new trinket items have been added to loadouts.
   id: 91
   time: '2025-09-20T12:50:03.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Add
+      message: Added Set Examine.
+  id: 92
+  time: '2025-10-08T19:08:27.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Add
+      message: Added the ability to sign papers and other documents.
+  id: 93
+  time: '2025-10-09T12:28:13.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: Slider removed for a input box.
+  id: 94
+  time: '2025-10-09T18:19:06.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Add
+      message: Added the Ready Manifest from Moffstation.
+  id: 95
+  time: '2025-10-10T13:22:44.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Added the synthetic trait.
+  id: 96
+  time: '2025-10-10T13:34:13.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Add
+      message: Added anti-depressants and anti-anxiety roleplay chemicals.
+  id: 97
+  time: '2025-10-11T10:04:02.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Moths have hair now.
+  id: 98
+  time: '2025-10-11T10:20:35.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: the crewmon now matches the GPS coords.
+  id: 99
+  time: '2025-10-11T10:42:12.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Added, Bronze, Amber, and Omega alerts from CD
+  id: 100
+  time: '2025-10-11T12:47:53.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Added Medical Sunglasses.
+    - type: Add
+      message: Added Engineering Sunglasses.
+  id: 101
+  time: '2025-10-11T12:57:39.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Senior Couriers have come!.
+  id: 102
+  time: '2025-10-11T18:04:34.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Added a new gamepreset "Vestige-extended"
+  id: 103
+  time: '2025-10-12T13:09:23.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Added Prisoners.
+  id: 104
+  time: '2025-10-12T17:28:16.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Tweak
+      message: >-
+        The red phone is now able to have real-time, live conversations with
+        Central Command.
+  id: 105
+  time: '2025-10-13T07:33:01.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Fix
+      message: >-
+        The lobby now pauses automatically when the server starts and when the
+        lobby is down to one person.
+  id: 106
+  time: '2025-10-13T07:36:52.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: SMES dont drain until the arrivals shuttle docks.
+  id: 107
+  time: '2025-10-13T09:57:36.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Remove
+      message: Removed Box, Exo, Fland, Oasis, Reach, and Relic.
+  id: 108
+  time: '2025-10-13T19:36:17.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Add
+      message: Added a personal item for Rana Chana-Owlbane
+  id: 109
+  time: '2025-10-14T07:38:43.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Fix
+      message: >-
+        Fixed formal shoes not working for Captain, HoP, Psychologist, and
+        several Service roles.
+    - type: Tweak
+      message: Gave the Senior Courier role access to normal Cargo uniforms.
+    - type: Remove
+      message: Removed the Senior Courier PDA change.
+  id: 110
+  time: '2025-10-14T08:34:40.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Tweak
+      message: >-
+        Allows storing items in the backslot while wearing winter coats and
+        other jackets.
+  id: 111
+  time: '2025-10-14T21:25:39.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: Moth hair not being able to be selected.
+  id: 112
+  time: '2025-10-15T08:28:19.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Added a personal item for Dawn Nightflitter.
+  id: 113
+  time: '2025-10-15T08:29:07.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Cluster is recomissioned.
+  id: 114
+  time: '2025-10-17T12:38:07.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Tweak
+      message: Encryption keys can now fit inside headphones.
+  id: 115
+  time: '2025-10-18T13:02:46.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Tweak
+      message: The digiboard can now be linked to cargo telepads.
+  id: 116
+  time: '2025-10-18T14:29:40.0000000+00:00'
+- author: qu4drivium
+  changes:
+    - type: Tweak
+      message: Foxfolk now have Animal stomachs.
+  id: 117
+  time: '2025-10-18T15:24:45.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Tweak
+      message: Foxfolk can use use human hair markings.
+  id: 118
+  time: '2025-10-18T16:12:39.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: Resomi now start with a survival box.
+    - type: Fix
+      message: Harpies now start with a survival box.
+  id: 119
+  time: '2025-10-20T11:03:01.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Fix
+      message: Fixed Riv's oopsie (the Ready button works again)
+  id: 120
+  time: '2025-10-20T19:01:20.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Rodentia come to the vestige sector.
+  id: 121
+  time: '2025-10-22T19:14:40.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Tweak
+      message: Reduced Meteor swarms.
+  id: 122
+  time: '2025-10-27T12:58:02.0000000+00:00'
+- author: purpleskittleo
+  changes:
+    - type: Add
+      message: Onwards (Postround) - purpleskittleo
+    - type: Add
+      message: Onwards (Roundstart) - itsscritchscratch
+    - type: Add
+      message: Service at Dawn - itsscritchscratch
+    - type: Add
+      message: Shiftfall Stardust - purpleskittleo
+    - type: Add
+      message: RQH VWHS FORVHU - purpleskittleo
+    - type: Add
+      message: Various ambient SFX!
+  id: 123
+  time: '2025-10-31T20:01:39.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: The electropack now has sensors.
+  id: 124
+  time: '2025-10-31T20:55:45.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Borgs can go into sleep mode.
+    - type: Tweak
+      message: Borgs can unlock themselves.
+  id: 125
+  time: '2025-11-01T18:18:13.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal Item for Attacus Fischer
+  id: 126
+  time: '2025-11-03T14:16:04.0000000+00:00'
+- author: Mixmaster49
+  changes: []
+  id: 127
+  time: '2025-11-03T17:10:49.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: Cluster II class is ready for comissioning.
+  id: 128
+  time: '2025-11-03T19:27:22.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal Item for Johan Ullman
+  id: 129
+  time: '2025-11-03T21:11:13.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal Item for Johan Ullman.
+  id: 130
+  time: '2025-11-04T07:56:16.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal Item for Alexi Ullman
+  id: 131
+  time: '2025-11-04T13:40:02.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal Item for Serendipity Bluewing.
+  id: 132
+  time: '2025-11-04T17:36:07.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: Tweaked cluster a bit more AGAIN
+    - type: Tweak
+      message: Cluster Evac now has a powered medical door
+  id: 133
+  time: '2025-11-04T19:02:33.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Added the Russian accent.
+  id: 134
+  time: '2025-11-06T12:06:00.0000000+00:00'
+- author: JuneSzalkowska
+  changes:
+    - type: Add
+      message: New outfits for GM purposes.
+  id: 135
+  time: '2025-11-06T20:50:06.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Added the Magistrate!
+  id: 136
+  time: '2025-11-06T20:49:34.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Add
+      message: Added group job whitelists.
+  id: 137
+  time: '2025-11-07T19:29:16.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Fix
+      message: Fixed the Hypophonia trait.
+  id: 138
+  time: '2025-11-08T15:35:00.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Added the Rapid Piping Device.
+  id: 139
+  time: '2025-11-12T21:55:26.0000000+00:00'
+- author: purpleskittleo
+  changes:
+    - type: Tweak
+      message: Tweaked audio file formatting to add duration to the file name.
+    - type: Tweak
+      message: Tweaked folder formatting to (hopefully) fit more long-term use.
+    - type: Add
+      message: Added "SINGULOOSE!"
+    - type: Add
+      message: Added "L'arrivo dell'Uomo"
+    - type: Add
+      message: Added "Incognito (Stinger Ver.)"
+    - type: Add
+      message: Added 3 new event ambiences.
+    - type: Tweak
+      message: Adjusted the length of 4 ambiences to fit gameplay flow better.
+  id: 140
+  time: '2025-11-14T15:57:14.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: Felinids now show their tails.
+  id: 141
+  time: '2025-11-15T17:00:54.0000000+00:00'
+- author: JuneSzalkowska
+  changes:
+    - type: Add
+      message: Added a new weapon.
+    - type: Tweak
+      message: Changed the GM outfits ID for the Ayanian Stuff
+  id: 142
+  time: '2025-11-16T14:47:50.0000000+00:00'
+- author: Mangohydra
+  changes:
+    - type: Tweak
+      message: Compressed paint now holds 30 charges instead of 15.
+    - type: Add
+      message: 4-5 new colors for pipes.
+    - type: Add
+      message: Paint is now edible.
+  id: 143
+  time: '2025-11-17T10:06:49.0000000+00:00'
+- author: Mangohydra
+  changes:
+    - type: Remove
+      message: hazardous copyrighted material relating to cats
+  id: 144
+  time: '2025-11-20T19:32:15.0000000+00:00'
+- author: JuneSzalkowska
+  changes:
+    - type: Add
+      message: Added a new winterjacket (Salvage Mining Jacket)
+    - type: Add
+      message: Added 5 new labcoats (basic, science, chemistry, RD, CMO)
+    - type: Add
+      message: Added 2 new tricorn hats (Captain, Quartermaster)
+    - type: Tweak
+      message: Added the new outfits to the loadouts
+    - type: Remove
+      message: Removed all Modern Labcoats from loadouts
+  id: 145
+  time: '2025-11-22T15:13:21.0000000+00:00'
+- author: purpleskittleo
+  changes:
+    - type: Add
+      message: Added "Incognito (NIGHTMARE Stinger Ver.)"
+    - type: Add
+      message: Added "Silksilver (Stinger Ver.)"
+    - type: Tweak
+      message: Fixed a bunch of ambiences not fading out properly.
+  id: 146
+  time: '2025-11-22T17:04:07.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: High-cut labcoats no longer show up as 'item' in loadouts.
+  id: 147
+  time: '2025-11-23T09:25:20.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: RPD can now be bought from cargo.
+    - type: Add
+      message: RPD now spawns in the CE's locker roundstart
+  id: 148
+  time: '2025-11-23T10:56:52.0000000+00:00'
+- author: Mixmaster49
+  changes:
+    - type: Add
+      message: Riyada personal item
+  id: 149
+  time: '2025-11-24T14:06:16.0000000+00:00'
+- author: TheNarwhalrus
+  changes:
+    - type: Add
+      message: cracked sunglasses item
+  id: 150
+  time: '2025-11-27T18:26:41.0000000+00:00'
+- author: JuneSzalkowska
+  changes:
+    - type: Add
+      message: Added a New Andalusian High Noble Outfit
+  id: 151
+  time: '2025-11-30T15:09:03.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: Nanochat now works again.
+  id: 152
+  time: '2025-12-02T18:06:38.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Fix
+      message: RPD can now deconstruct pipes again.
+    - type: Tweak
+      message: RPD takes 1 second to deconstruct radiators.
+  id: 153
+  time: '2025-12-02T19:35:55.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Tweak
+      message: Increased the MaxTitleLength and MaxContentLength for the news system
+  id: 154
+  time: '2025-12-06T14:17:30.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Command headsets now come with the hailing comms encryption key.
+  id: 155
+  time: '2025-12-07T10:40:21.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Tweak
+      message: Dog tags are now selectable in the loadout tab.
+  id: 156
+  time: '2025-12-07T10:40:57.0000000+00:00'
+- author: Mangohydra
+  changes:
+    - type: Tweak
+      message: >-
+        Increased the marking limits on the upstream species for much more
+        sillier goobers.
+  id: 157
+  time: '2025-12-07T14:00:26.0000000+00:00'
+- author: OnyxTheBrave
+  changes:
+    - type: Add
+      message: Personal item for Clover Evergreen.
+  id: 158
+  time: '2025-12-08T07:50:03.0000000+00:00'
+- author: Mangohydra
+  changes:
+    - type: Add
+      message: Cigarette filters can now be printed from the biogenerator.
+  id: 159
+  time: '2025-12-15T14:44:36.0000000+00:00'

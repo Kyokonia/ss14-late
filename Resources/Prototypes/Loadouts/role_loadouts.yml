@@ -1,3 +1,32 @@
+# SPDX-FileCopyrightText: 2025 Wizards Den contributors
+# SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
+# SPDX-FileCopyrightText: 2024 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 BuildTools <unconfigured@null.spigotmc.org>
+# SPDX-FileCopyrightText: 2024 Cojoke <83733158+Cojoke-dot@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 DieselMohawk <gavin.drinka@gmail.com>
+# SPDX-FileCopyrightText: 2024 Errant <35878406+Errant-4@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Ghagliiarghii <68826635+Ghagliiarghii@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Mr. 27 <45323883+Dutch-VanDerLinde@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 PoorMansDreams <150595537+PoorMansDreams@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 SpeltIncorrectyl <66873282+SpeltIncorrectyl@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 TakoDragon <69509841+BackeTako@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Verm <32827189+Vermidia@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 cool dolphin <36332236+Afrokada@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 pigeonpeas <147350443+pigeonpeas@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 themias <89101928+themias@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 DieselMohawk <173439801+DieselMohawk@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Phooooooooooooooooooooooooooooooosphate <184853112+Phooooooooooooooooooooooooooooooosphate@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
+# SPDX-FileCopyrightText: 2025 jajsha <corbinbinouche7@gmail.com>
+# SPDX-FileCopyrightText: 2025 lzk <124214523+lzk228@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 qu4drivium <aaronholiver@outlook.com>
+# SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Command
 - type: roleLoadout
   id: JobCaptain
@@ -7,9 +36,12 @@
   - CaptainJumpsuit
   - CaptainBackpack
   - CaptainOuterClothing
+  - FormalShoes # CD Change
   - Survival
   - Trinkets
+  - CaptainJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -20,10 +52,13 @@
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - HoPJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # Silicons
 - type: roleLoadout
@@ -48,10 +83,13 @@
   - PassengerGloves
   - PassengerOuterClothing
   - PassengerShoes
+  - PassengerTitles #CD titles
   - Glasses
   - Survival
   - Trinkets
+  - PassengerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobBartender
@@ -61,10 +99,13 @@
   - BartenderJumpsuit
   - CommonBackpack
   - BartenderOuterClothing
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - BartenderJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -72,10 +113,13 @@
   - GroupTankHarness
   - BartenderJumpsuit
   - CommonBackpack
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - ServiceWorkerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobChef
@@ -89,7 +133,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ChefJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobLibrarian
@@ -97,10 +143,13 @@
   - GroupTankHarness
   - LibrarianJumpsuit
   - CommonBackpack
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - LibrarianJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobLawyer
@@ -109,10 +158,13 @@
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - LawyerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobChaplain
@@ -128,7 +180,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ChaplainJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobJanitor
@@ -142,8 +196,9 @@
   - Glasses
   - Survival
   - Trinkets
-  - JanitorPlunger
+  - JanitorJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobBotanist
@@ -156,7 +211,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - BotanistJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobClown
@@ -171,6 +228,8 @@
   - Glasses
   - SurvivalClown
   - Trinkets
+  - PersonalItemsJobAgnostic #SV Change
+  - ClownJobTrinkets
 
 - type: roleLoadout
   id: JobMime
@@ -186,19 +245,25 @@
   - Glasses
   - SurvivalMime
   - Trinkets
+  - PersonalItemsJobAgnostic #SV Change
+  - MimeJobTrinkets
 
 - type: roleLoadout
   id: JobMusician
+  canCustomizeName: true
   groups:
   - GroupTankHarness
   - MusicianJumpsuit
   - CommonBackpack
   - MusicianOuterClothing
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - MusicianJobTrinkets
   - Instruments
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # Cargo
 - type: roleLoadout
@@ -214,7 +279,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - QuartermasterJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -229,19 +296,24 @@
   - Glasses
   - Survival
   - Trinkets
+  - CargoTechnicianJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobSalvageSpecialist
   groups:
   - GroupTankHarness
+  - SalvageSpecialistJumpsuit # CD
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes
   - Glasses
   - Survival
   - Trinkets
+  - SalvageSpecialistJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # Engineering
 - type: roleLoadout
@@ -249,6 +321,7 @@
   groups:
   - GroupTankHarness
   - ChiefEngineerHead
+  - EngineeringEyewear # CD
   - ChiefEngineerJumpsuit
   - StationEngineerBackpack
   - ChiefEngineerNeck
@@ -256,7 +329,9 @@
   - ChiefEngineerShoes
   - SurvivalExtended
   - Trinkets
+  - ChiefEngineerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -266,13 +341,16 @@
   - StationEngineerBackpack
   - SurvivalExtended
   - Trinkets
+  - TechnicalAssistantJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobStationEngineer
   groups:
   - GroupTankHarness
   - StationEngineerHead
+  - EngineeringEyewear # CD
   - StationEngineerJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing
@@ -280,19 +358,24 @@
   - StationEngineerID
   - SurvivalExtended
   - Trinkets
+  - StationEngineerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
   groups:
   - GroupTankHarness
+  - EngineeringEyewear # CD
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - SurvivalExtended
   - Trinkets
+  - AtmosphericTechnicianJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # Science
 - type: roleLoadout
@@ -309,7 +392,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ResearchDirectorJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobScientist
@@ -326,7 +411,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ScientistJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -337,7 +424,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ResearchAssistantJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # Security
 - type: roleLoadout
@@ -350,10 +439,12 @@
   - SecurityBelt
   - HeadofSecurityOuterClothing
   - SecurityShoes
+  - SecurityGlassesOrHud # CD Addition
   - SurvivalSecurity
   - Trinkets
-  - SecurityStar
+  - HeadofSecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobWarden
@@ -364,10 +455,12 @@
   - SecurityBelt
   - WardenOuterClothing
   - SecurityShoes
+  - SecurityGlassesOrHud # CD Addition
   - SurvivalSecurity
   - Trinkets
-  - SecurityStar
+  - WardenJobTrinkets
   - GroupSpeciesBreathToolSecurity
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -379,10 +472,12 @@
   - SecurityShoes
   - SecurityPDA
   - SecurityBelt
+  - SecurityGlassesOrHud # CD Addition
   - SurvivalSecurity
   - Trinkets
-  - SecurityStar
+  - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobDetective
@@ -393,19 +488,24 @@
   - SecurityBackpack
   - DetectiveOuterClothing
   - SecurityShoes
+  - SecurityGlassesOrHud # CD Addition
   - SurvivalSecurity
   - Trinkets
-  - SecurityStar
+  - DetectiveJobTrinkets
   - GroupSpeciesBreathToolSecurity
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
   - SecurityCadetJumpsuit
   - SecurityBackpack
+  - SecurityGlassesOrHud # CD Addition
   - SurvivalSecurity
   - Trinkets
+  - SecurityCadetJobTrinkets
   - GroupSpeciesBreathToolSecurity
+  - PersonalItemsJobAgnostic #SV Change
 
 # Medical
 - type: roleLoadout
@@ -423,7 +523,9 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - ChiefMedicalOfficerJobTrinkets
   - GroupSpeciesBreathToolMedical
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -433,14 +535,16 @@
   - MedicalMask
   - MedicalDoctorJumpsuit
   - MedicalGloves
-  - MedicalBackpack
+  - MedicalSpecializationBackpack # CD change from MedicalBackpack
   - MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - MedicalDoctorJobTrinkets
   - GroupSpeciesBreathToolMedical
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -451,7 +555,9 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - MedicalInternJobTrinkets
   - GroupSpeciesBreathToolMedical
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobChemist
@@ -465,23 +571,30 @@
   - MedicalShoes
   - SurvivalMedical
   - Trinkets
+  - ChemistJobTrinkets
   - GroupSpeciesBreathToolMedical
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobParamedic
   groups:
   - GroupTankHarness
   - ParamedicHead
-  - MedicalMask
+  # CD: ETU Gear
+  - ParamedicMask
   - ParamedicJumpsuit
-  - MedicalGloves
+  # CD: ETU Gear
+  - ParamedicGloves
+  # - MedicalGloves # ParamedicGloves ALSO include MedicalGloves.
   - MedicalBackpack
   - ParamedicOuterClothing
   - ParamedicShoes
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - ParamedicJobTrinkets
   - GroupSpeciesBreathToolMedical
+  - PersonalItemsJobAgnostic #SV Change
 
 # Wildcards
 - type: roleLoadout
@@ -492,7 +605,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ZookeeperJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobReporter
@@ -503,7 +618,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - ReporterJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobPsychologist
@@ -511,10 +628,13 @@
   - GroupTankHarness
   - PsychologistJumpsuit
   - MedicalBackpack
+  - FormalShoes # CD Change
   - Glasses
   - Survival
   - Trinkets
+  - PsychologistJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 - type: roleLoadout
   id: JobBoxer
@@ -526,7 +646,9 @@
   - Glasses
   - Survival
   - Trinkets
+  - BoxerJobTrinkets
   - GroupSpeciesBreathTool
+  - PersonalItemsJobAgnostic #SV Change
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

@@ -1,0 +1,130 @@
+# SPDX-FileCopyrightText: 2025 Sector-Vestige contributors
+# SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
+# SPDX-FileCopyrightText: 2025 JuneSzalkowska <113352036+JuneSzalkowska@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 JuneSzalkowska <juneowo69@gmail.com>
+# SPDX-FileCopyrightText: 2025 JuneSzalkowska <juneszalkowska@gmail.com>
+# SPDX-FileCopyrightText: 2025 OnyxTheBrave <131422822+OnyxTheBrave@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Ayanian Great Coats
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatAyanianAdmiral
+  name: admiral great coat
+  description: A great coat befitting the role of a Federation admiral.
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/ayanian_admiralty.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/ayanian_admiralty.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatCentCommAdmiral
+  name: CentComm great coat
+  description: A great coat befitting the role of a Central Commander.
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/centcomm_admiralty.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/centcomm_admiralty.rsi
+
+#High-cut labcoat
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatHighcutBase
+  name: high-cut coat
+  description: Fashionable AND smart. Some would say "Eureka".
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_base.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_base.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatHighcutOpenedBase
+
+#Interdyne Lab Coat
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatLabInterdyne
+  name: suspicious high-cut coat
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/interdyne_labcoat.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/interdyne_labcoat.rsi
+  - type: Armor
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabInterdyne]
+  id: ClothingOuterCoatLabOpenedInterdyne
+
+#High-cut science labcoat
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatHighcutScience
+  name: science high-cut coat
+  description: Fashionable AND scientific. Some would say "Eureka".
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_science.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_science.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatHighcutScience]
+  id: ClothingOuterCoatHighcutOpenedScience
+
+#High-cut chemist labcoat
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatHighcutChemist
+  name: chemist high-cut coat
+  description: Fashionable AND sterile. Some would say "Eureka".
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_chem.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_chem.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatHighcutChemist]
+  id: ClothingOuterCoatHighcutOpenedChemist
+
+#High-cut CMO labcoat
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatHighcutCMO
+  name: chief medical officer high-cut coat
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_cmo.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_cmo.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatHighcutCMO]
+  id: ClothingOuterCoatHighcutOpenedCMO
+
+#High-cut RD labcoat
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatHighcutBase]
+  id: ClothingOuterCoatHighcutRD
+  name: research director high-cut coat
+  description: Even more fashionable AND smart. Some would say "SCIENCE HAS EXPLODED AGAIN!!".
+  components:
+  - type: Sprite
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_rd.rsi
+  - type: Clothing
+    sprite: _SV/Clothing/OuterClothing/Coats/highcut_rd.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatHighcutRD]
+  id: ClothingOuterCoatHighcutOpenedRD

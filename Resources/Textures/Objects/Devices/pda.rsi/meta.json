@@ -171,9 +171,6 @@
             "name": "pda-syndi"
         },
         {
-            "name": "pda-syndi-agent"
-        },
-        {
             "name": "pda-syndi-corpsman"
         },
         {
@@ -245,6 +242,12 @@
             "name": "pda-seniorcourier"
         },
         {
+            "name": "pda-privateinvestigator"
+        },
+        {
+            "name": "harmony-pda-prisoner"
+        },
+        {
             "name": "pda-wizard",
             "delays": [
                 [
@@ -254,9 +257,6 @@
                     0.3
                 ]
             ]
-        },
-        {
-            "name": "harmony-pda-prisoner"
         },
         {
             "name": "equipped-IDCARD",

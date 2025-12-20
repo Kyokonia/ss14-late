@@ -1,3 +1,5 @@
+// SPDX-FileCopyrightText: 2025 Wizards Den contributors
+// SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
 // SPDX-FileCopyrightText: 2022 Rane <60792108+Elijahrane@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 PrPleGoo <PrPleGoo@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 Vordenburg <114301317+Vordenburg@users.noreply.github.com>
@@ -7,7 +9,12 @@
 // SPDX-FileCopyrightText: 2024 Ty Ashley <42426760+TyAshley@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Brandon Li <48413902+aspiringLich@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Connor Huffine <chuffine@gmail.com>
+// SPDX-FileCopyrightText: 2025 LordCarve <27449516+LordCarve@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
+// SPDX-FileCopyrightText: 2025 qu4drivium <aaronholiver@outlook.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -34,8 +41,12 @@ namespace Content.Client.Access.UI
 
         private const int JobIconColumnCount = 10;
 
+        private const int MaxNumberLength = 4; // CD - Same as NewChatPopup
+
         public event Action<string>? OnNameChanged;
         public event Action<string>? OnJobChanged;
+
+        public event Action<uint>? OnNumberChanged; // CD - Add event for number changes
 
         public event Action<ProtoId<JobIconPrototype>>? OnJobIconChanged;
 
@@ -50,6 +61,37 @@ namespace Content.Client.Access.UI
 
             JobLineEdit.OnTextEntered += e => OnJobChanged?.Invoke(e.Text);
             JobLineEdit.OnFocusExit += e => OnJobChanged?.Invoke(e.Text);
+
+            // CD - Add handlers for number changes
+                        NumberLineEdit.OnTextEntered += OnNumberEntered;
+                        NumberLineEdit.OnFocusExit += OnNumberEntered;
+
+                        // CD - Filter to only allow digits
+                        NumberLineEdit.OnTextChanged += args =>
+                        {
+                            if (args.Text.Length > MaxNumberLength)
+                            {
+                                NumberLineEdit.Text = args.Text[..MaxNumberLength];
+                            }
+
+                            // Filter to digits only
+                            var newText = string.Concat(args.Text.Where(char.IsDigit));
+                            if (newText != args.Text)
+                                NumberLineEdit.Text = newText;
+                        };
+                    }
+
+                    // CD - Add number validation and event
+                    private void OnNumberEntered(LineEdit.LineEditEventArgs args)
+                    {
+                        if (uint.TryParse(args.Text, out var number) && number > 0)
+                            OnNumberChanged?.Invoke(number);
+                    }
+
+                    // CD - Add setter for current number
+                    public void SetCurrentNumber(uint? number)
+                    {
+                        NumberLineEdit.Text = number?.ToString("D4") ?? "";
         }
 
         public void SetAllowedIcons(string currentJobIconId)
@@ -62,12 +104,12 @@ namespace Content.Client.Access.UI
             icons.Sort((x, y) => string.Compare(x.LocalizedJobName, y.LocalizedJobName, StringComparison.CurrentCulture));
             foreach (var jobIcon in icons)
             {
-                String styleBase = StyleBase.ButtonOpenBoth;
+                String styleBase = StyleClass.ButtonOpenBoth;
                 var modulo = i % JobIconColumnCount;
                 if (modulo == 0)
-                    styleBase = StyleBase.ButtonOpenRight;
+                    styleBase = StyleClass.ButtonOpenRight;
                 else if (modulo == JobIconColumnCount - 1)
-                    styleBase = StyleBase.ButtonOpenLeft;
+                    styleBase = StyleClass.ButtonOpenLeft;
 
                 // Generate buttons
                 var jobIconButton = new Button

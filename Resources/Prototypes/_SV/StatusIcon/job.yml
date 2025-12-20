@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2025 Sector-Vestige contributors
+# SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
+# SPDX-FileCopyrightText: 2025 OnyxTheBrave <vinjeerik@gmail.com>
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Senior Courier
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSeniorCourier
+  icon:
+    sprite: /Textures/_SV/Interface/Misc/job_icons.rsi
+    state: SeniorCourier
+  jobName: job-name-senior-courier
+
+# Magistrate
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSVMagistrate
+  icon:
+    sprite: /Textures/_SV/Interface/Misc/job_icons.rsi
+    state: SV-Magistrate
+  jobName: job-name-sv-magistrate

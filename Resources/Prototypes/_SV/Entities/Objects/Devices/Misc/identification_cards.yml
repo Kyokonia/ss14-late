@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2025 Sector-Vestige contributors
+# SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Senior Courier
+- type: entity
+  parent: IDCardStandard
+  id: SeniorCourierIDCard
+  name: senior courier ID card
+  components:
+  - type: Sprite
+    sprite: _SV/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+      sprite: Objects/Misc/id_cards.rsi
+    - state: idseniorcourier
+  - type: PresetIdCard
+    job: SeniorCourier
