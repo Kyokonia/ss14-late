@@ -16,7 +16,7 @@
     equippedPrefix: sleeps
     slots:
     - HEAD
-         
+
 - type: loadout
   id: PersonalItemSleepsPlushie
   storage:

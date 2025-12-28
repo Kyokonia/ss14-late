@@ -14,7 +14,7 @@
     spawned:
     - id: MaterialCloth1
       amount: 1
-     
+
 - type: loadout
   id: PersonalItemAnnabelleScarf
   storage:

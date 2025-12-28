@@ -8,7 +8,7 @@
    - type: Sprite
      sprite: _LateStation/Objects/Fun/Toys/radios-plushie.rsi
      state: radios-plushie
-     
+
 - type: loadout
   id: PersonalItemRadiosPlushie
   storage:
