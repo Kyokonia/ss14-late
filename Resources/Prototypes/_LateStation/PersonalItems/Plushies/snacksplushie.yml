@@ -25,5 +25,5 @@
   effects:
   - !type:PersonalItemLoadoutEffect
     character:
-    - Snacks-the-Soy
+    - Snacks-The-Soy
   groupBy: "LS Plushies"
