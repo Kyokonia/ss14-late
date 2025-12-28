@@ -1,5 +1,5 @@
 
-# Player: TastelessMax - Character: Drafts-The-Design
+# Player: TastelessMax - Character: Drafts-The-Designs
 - type: entity
   parent: BaseWehPlushie
   id: PersonalItemDraftsPlushie #emnjineer
@@ -27,5 +27,5 @@
   effects:
   - !type:PersonalItemLoadoutEffect
     character:
-    - Drafts-The-Design
+    - Drafts-The-Designs
   groupBy: "LS Plushies"
