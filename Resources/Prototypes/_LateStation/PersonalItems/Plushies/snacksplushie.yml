@@ -22,7 +22,7 @@
     equippedPrefix: snacks
     slots:
     - HEAD
-    
+
 - type: loadout
   id: PersonalItemSnacksPlushie
   storage:
