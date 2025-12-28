@@ -1,0 +1,31 @@
+
+# Player: TastelessMax - Character: Drafts-The-Design
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemDraftsPlushie #emnjineer
+  name: Drafts plushie
+  description: This anxious looking chartreuse plush smells of welding fuel and Starset Sasparilla.
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/drafts-plushie.rsi
+    state: drafts-plushie
+  - type: Item
+    heldPrefix: drafts
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/drafts-plushie.rsi
+    equippedPrefix: drafts
+    slots:
+    - HEAD
+
+
+- type: loadout
+  id: PersonalItemDraftsPlushie
+  storage:
+    back:
+    - PersonalItemDraftsPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Drafts-The-Design
+  groupBy: "LS Plushies"

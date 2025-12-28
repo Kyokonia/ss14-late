@@ -1,0 +1,21 @@
+# Player: RoseyRose - Character: Rose Snowlight
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemRosePlushie #I think they might be blind?
+   name: Rose plushie
+   description: A little fluffy scientist, for all your science related needs!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/rose-plushie.rsi
+     state: rose-plushie
+         
+- type: loadout
+  id: PersonalItemRosePlushie
+  storage:
+    back:
+    - PersonalItemRosePlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Rose Snowlight
+  groupBy: "LS Plushies"

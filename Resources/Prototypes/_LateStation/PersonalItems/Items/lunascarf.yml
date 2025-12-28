@@ -1,0 +1,26 @@
+#Player: Kyokona - Character: Luna Kolibri
+- type: entity
+  parent: ClothingScarfBase
+  id: PersonalItemLunaScarf
+  name: Luna's short bacon
+  description: A long bacon, cut in half in a show of faith for someone
+  components:
+  - type: Sprite
+    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_short.rsi
+  - type: Clothing
+    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_short.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+
+- type: loadout
+  id: PersonalItemLunaScarf
+  storage:
+    back:
+    - PersonalItemLunaScarf
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Luna Kolibri

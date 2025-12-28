@@ -1,0 +1,21 @@
+# Player: Archliche - Character: Radios Lamplight
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemRadiosPlushie #I honestly am not sure what to put here. Hope you have a good day!
+   name: Radios plushie
+   description: A mysterious moth, in a purple outfit. Made of the prettiest of white fiber!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/radios-plushie.rsi
+     state: radios-plushie
+     
+- type: loadout
+  id: PersonalItemRadiosPlushie
+  storage:
+    back:
+    - PersonalItemRadiosPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Radios Lamplight
+  groupBy: "LS Plushies"

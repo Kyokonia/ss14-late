@@ -1,0 +1,21 @@
+# Player: Lattecat - Character: Scarlet Moondancer
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemScarletPlushie #Eepy.
+   name: Scarlet plushie
+   description: A very intimidating looking little plushie. Also very cute!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/scarlet-plushie.rsi
+     state: scarlet-plushie
+
+- type: loadout
+  id: PersonalItemScarletPlushie
+  storage:
+    back:
+    - PersonalItemScarletPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Scarlet Moondancer
+  groupBy: "LS Plushies"

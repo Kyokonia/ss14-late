@@ -1,0 +1,21 @@
+#Player: RCOI - Character: Wist Carlene
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemWistPlushie # Tossing this one out the airlock so you can fetch it back :)
+   name: Wist plushie
+   description: "\"Remember, Wisteria, it's never lame to be kind.\" -Verne Solfeather"
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/wist-plushie.rsi
+     state: wist-plushie
+
+- type: loadout
+  id: PersonalItemWistPlushie
+  storage:
+    back:
+    - PersonalItemWistPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Wist Carlene
+  groupBy: "LS Plushies"

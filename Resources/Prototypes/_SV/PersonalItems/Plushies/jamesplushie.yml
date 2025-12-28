@@ -2,7 +2,7 @@
 - type: entity
   parent: BasePlushie
   id: PersonalItemJamesPlushie
-  name: Plushie of James
+  name: James plushie
   description: The medical expert that refers to his headset as talkbox
   suffix: PersonalItem
   components:
@@ -25,3 +25,4 @@
   - !type:PersonalItemLoadoutEffect
     character:
     - James C Rondo
+  groupBy: "LS Plushies" #LS addition; ignore/remove on SV

@@ -15,12 +15,41 @@
 # 2. One loadout section per personal item.
 # 3. Add the loadout to every applicable LOADOUT GROUP HERE
 
-# - type: loadoutGroup
-#  id: PersonalItemsJobAgnostic
-#  name: loadout-group-personal-items
-#  minLimit: 0
-#  maxLimit: 2
-#  loadouts:
-#  - PersonalItemJamesCane
-#  - PersonalItemJamesPlushie
-#  - PersonalItemPititiGorb
+#Personal items
+- type: loadoutGroup
+  id: PersonalItemsJobAgnostic
+  name: loadout-group-personal-items
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - PersonalItemAtlasMothPlushie #Start of plushies; should remain at the top of the list
+  - PersonalItemDraftsPlushie
+  - PersonalItemEggbertPlushie
+  - PersonalItemHidesPlushie
+  - PersonalItemIrisPlushie
+  - PersonalItemJamesPlushie 
+  - PersonalItemJuanPlushie
+  - PersonalItemJuniPlushie
+  - PersonalItemLucernePlushie
+  - PersonalItemDinoPlushie
+  - PersonalItemRadiosPlushie
+  - PersonalItemRosePlushie
+  - PersonalItemScarletPlushie
+  - PersonalItemSnacksPlushie
+  - PersonalItemSleepsPlushie
+  - PersonalItemThrizPlushie
+  - PersonalItemWistPlushie # End of plushies
+  - PersonalItemAlexiJacket
+  - PersonalItemJohanCodex
+  - PersonalItemJohanScarf
+  - PersonalItemAnnabelleScarf
+  - PersonalItemAustinMothCloak
+  - PersonalItemBringsHoodie
+  - PersonalItemCloverBeret
+  - PersonalItemIrisGlasses
+  - PersonalItemJamesCane
+  - PersonalItemPititiGorb
+  - PersonalItemLucyTrenchCoat
+  - PersonalItemLunaScarf
+  - PersonalItemMaryCollar
+  - PersonalItemWistMantle

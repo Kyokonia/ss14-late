@@ -1,0 +1,22 @@
+#Player: September - Character: Juni Snowlight
+#Might consider adding as a personal item for Atlas Snowlight (reason: married)
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemJuniPlushie # They need to go on a vacation.
+   name: Juni plushie
+   description: A moth, clearly prepared to fly around in space... the final Frontier!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/juni-plushie.rsi
+     state: juni-plushie
+
+- type: loadout
+  id: PersonalItemJuniPlushie
+  storage:
+    back:
+    - PersonalItemJuniPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Juni Snowlight
+  groupBy: "LS Plushies"

@@ -1,0 +1,26 @@
+#Player: Lattecat - Character: Annabelle Mcmullen
+- type: entity
+  parent: ClothingScarfBase
+  id: PersonalItemAnnabelleScarf
+  name: extra crispy
+  description: A lesbian scarf, partially burnt. Certain to hold a love story.
+  components:
+  - type: Sprite
+    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_burnt.rsi
+  - type: Clothing
+    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_burnt.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+     
+- type: loadout
+  id: PersonalItemAnnabelleScarf
+  storage:
+    back:
+    - PersonalItemAnnabelleScarf
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Annabelle Mcmullen

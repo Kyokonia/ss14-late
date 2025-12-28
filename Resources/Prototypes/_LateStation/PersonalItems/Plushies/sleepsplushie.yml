@@ -1,0 +1,30 @@
+#Player: Rellu - Character: Sleeps-On-Duty
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemSleepsPlushie #kill me
+  name: Sleeps plushie
+  description: urple
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/sleeps-plushie.rsi
+    state: sleeps-plushie
+  - type: Item
+    heldPrefix: sleeps
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/sleeps-plushie.rsi
+    equippedPrefix: sleeps
+    slots:
+    - HEAD
+         
+- type: loadout
+  id: PersonalItemSleepsPlushie
+  storage:
+    back:
+    - PersonalItemSleepsPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Sleeps-On-Duty
+    - Lucerne Sanddevil
+  groupBy: "LS Plushies"

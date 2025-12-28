@@ -1,0 +1,21 @@
+#Player: Amatiramasu - Character: Iris Voltia-Softcoat
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemIrisPlushie # Eeeek!!
+   name: Iris plushie
+   description: A particularly fluffy moth. They will save you in an emergency!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/iris-plushie.rsi
+     state: iris-plushie
+
+- type: loadout
+  id: PersonalItemIrisPlushie
+  storage:
+    back:
+    - PersonalItemIrisPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Iris Voltia-Softcoat
+  groupBy: "LS Plushies"

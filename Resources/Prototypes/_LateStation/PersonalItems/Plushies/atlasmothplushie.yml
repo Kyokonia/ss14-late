@@ -1,0 +1,23 @@
+#Player: MoonlightHollow - Character: Atlas Snowlight
+#Differing naming scheme due to desire for vulp plushie in the future
+#Might consider adding as a personal item for Juni Snowlight (reason: married)
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemAtlasMothPlushie # Awoo?
+   name: Atlas plushie
+   description: A very inimidating looking moth. It smells like dog fur for some reason.
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/atlas-plushie.rsi
+     state: atlas-plushie
+
+- type: loadout
+  id: PersonalItemAtlasMothPlushie
+  storage:
+    back:
+    - PersonalItemAtlasMothPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Atlas Snowlight
+  groupBy: "LS Plushies"
