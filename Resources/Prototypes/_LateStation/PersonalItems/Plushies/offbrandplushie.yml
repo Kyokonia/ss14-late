@@ -3,6 +3,7 @@
   parent: BaseWehPlushie
   id: PersonalItemDinoPlushie #rawr xd
   name: Off brand plushie
+  prefix: Corinne's
   description: low cost shit
   components:
   - type: Sprite

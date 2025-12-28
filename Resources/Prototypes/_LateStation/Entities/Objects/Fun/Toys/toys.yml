@@ -1,3 +1,4 @@
+
 #BASE FILES FOR ALL LS PLUSHIES
 
 - type: entity
@@ -47,7 +48,7 @@
      path: /Audio/Items/Toys/weh.ogg
   - type: EmitSoundOnCollide
     sound:
-     path: /Audio/Items/Toys/weh.ogg
+    path: /Audio/Items/Toys/weh.ogg
   - type: Edible
     requiresSpecialDigestion: true
     useSound:
@@ -66,10 +67,10 @@
    components:
    - type: EmitSoundOnUse
      sound:
-      path: /Audio/Items/Toys/ian.ogg
+     path: /Audio/Items/Toys/ian.ogg
    - type: EmitSoundOnLand
      sound:
-       collection: ToySqueak
+       collection: ToySqueak 
    - type: EmitSoundOnActivate
      sound:
        collection: ToySqueak
@@ -105,16 +106,15 @@
     state: marcus-plushie
 
 #Already a personal item in SV files
-#Restored because it exists on a map on SV.
-- type: entity
-  parent: BaseHumanPlushie
-  id: ToyPlushieJames #senile
-  name: Plushie of James
-  description: The medical expert that refers to his headset as talkbox
-  components:
-  - type: Sprite
-    sprite: _LateStation/Objects/Fun/Toys/james-plushie.rsi
-    state: james-plushie
+# - type: entity
+#   parent: BaseHumanPlushie
+#   id: ToyPlushieJames #senile
+#   name: Plushie of James
+#   description: The medical expert that refers to his headset as talkbox
+#   components:
+#   - type: Sprite
+#     sprite: _LateStation/Objects/Fun/Toys/james-plushie.rsi
+#     state: james-plushie
 
 #Everett Pebbles, lettuce. Need to doublecheck.
 - type: entity
