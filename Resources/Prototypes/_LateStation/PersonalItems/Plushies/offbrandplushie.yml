@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: cricket - Character: Corinne Coley
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemDinoPlushie #rawr xd
+  name: Off brand plushie
+  description: low cost shit
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/dino-plushie.rsi
+    state: dino-plushie
+  - type: Item
+    heldPrefix: dino
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/dino-plushie.rsi
+    equippedPrefix: dino
+    slots:
+    - HEAD
+
+- type: loadout
+  id: PersonalItemDinoPlushie
+  storage:
+    back:
+    - PersonalItemDinoPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Corinne Coley
+  groupBy: "LS Plushies"

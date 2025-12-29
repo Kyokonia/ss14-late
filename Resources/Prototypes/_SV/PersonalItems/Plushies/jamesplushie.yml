@@ -1,8 +1,16 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Player: ReboundQ3 - Character: James C Rondo
 - type: entity
   parent: BasePlushie
   id: PersonalItemJamesPlushie
-  name: Plushie of James
+  name: James plushie
   description: The medical expert that refers to his headset as talkbox
   suffix: PersonalItem
   components:
@@ -25,3 +33,4 @@
   - !type:PersonalItemLoadoutEffect
     character:
     - James C Rondo
+  groupBy: "LS Plushies" #LS addition; ignore/remove on SV

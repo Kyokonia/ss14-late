@@ -1,7 +1,9 @@
-# SPDX-FileCopyrightText: 2025 Sector-Vestige contributors
-# SPDX-FileCopyrightText: 2025 Sector Vestige contributors (modifications)
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
 # SPDX-FileCopyrightText: 2025 EvilAtheist <88866615+Mixmaster49@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 JuneSzalkowska <juneszalkowska@gmail.com>
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 OnyxTheBrave <131422822+OnyxTheBrave@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 OnyxTheBrave <vinjeerik@gmail.com>
 # SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 ReboundQ3 <ReboundQ3@gmail.com>
@@ -9,31 +11,30 @@
 # SPDX-FileCopyrightText: 2025 TheNarwhalrus <luca.patel.05@gmail.com>
 # SPDX-FileCopyrightText: 2025 qu4drivium <aaronholiver@outlook.com>
 # SPDX-FileCopyrightText: 2025 riv <234791249+qu4drivium@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 OnyxTheBrave <131422822+OnyxTheBrave@users.noreply.github.com>
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-License-Identifier: MIT
 
 # Personal Items
-- type: loadoutGroup
-  id: PersonalItemsJobAgnostic
-  name: loadout-group-personal-items
-  minLimit: 0
-  maxLimit: 2
-  loadouts:
-  - PersonalItemCyrusWhistle
-  - PersonalItemJamesPlushie
-  - PersonalItemPititiGorb
-  - PersonalItemJamesCane
-  - PersonalItemRanaRing
-  - PersonalItemDawnPlushie
-  - PersonalItemAttacusGuitar
-  - PersonalItemJohanCodex
-  - PersonalItemJohanScarf
-  - PersonalItemAlexiJacket
-  - PersonalItemSerendipityGuitar
-  - PersonalItemRiyadaCrucifix
-  - PersonalItemMelodyGlasses
-  - PersonalItemCloverBeret
+# - type: loadoutGroup
+#   id: PersonalItemsJobAgnostic
+#   name: loadout-group-personal-items
+#   minLimit: 0
+#   maxLimit: 2
+#   loadouts:
+#   - PersonalItemCyrusWhistle
+#   - PersonalItemJamesPlushie
+#   - PersonalItemPititiGorb
+#   - PersonalItemJamesCane
+#   - PersonalItemRanaRing
+#   - PersonalItemDawnPlushie
+#   - PersonalItemAttacusGuitar
+#   - PersonalItemJohanCodex
+#   - PersonalItemJohanScarf
+#   - PersonalItemAlexiJacket
+#   - PersonalItemSerendipityGuitar
+#   - PersonalItemRiyadaCrucifix
+#   - PersonalItemMelodyGlasses
+#   - PersonalItemCloverBeret
 
 # Senior Courier
 - type: loadoutGroup

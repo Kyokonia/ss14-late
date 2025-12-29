@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: PrivateJoe - Character: Juan Cruz.
+- type: entity
+  parent: BaseHumanPlushie
+  id: PersonalItemJuanPlushie #Contraband stealer
+  name: Juan plushie
+  description: Made as an attempt to show security as friendly and likeable, but you can't help but feel judged.
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/juan-plushie.rsi
+    state: juan-plushie
+
+- type: loadout
+  id: PersonalItemJuanPlushie
+  storage:
+    back:
+    - PersonalItemJuanPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Juan Cruz
+  groupBy: "LS Plushies"

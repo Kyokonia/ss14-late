@@ -1,0 +1,37 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 bruhmogus <104110869+bruhmogus@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: FederalBureau - Character: Mary Whitewitch
+- type: entity
+  parent: Clothing
+  id: PersonalItemMaryCollar
+  name: busted shock collar
+  description: An electric collar that would shock when signalled. Looks like this one is broken.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Clothing/Neck/Misc/shock_collar.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Neck/Misc/shock_collar.rsi
+    stripDelay: 10
+    equipDelay: 5 # to avoid accidentally falling into the trap associated with SelfUnremovableClothing, even though I removed it. Parity!!!!!!!!
+    quickEquip: true
+    slots:
+    - neck
+
+- type: loadout
+  id: PersonalItemMaryCollar
+  storage:
+    back:
+      - PersonalItemMaryCollar
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Mary Whitewitch

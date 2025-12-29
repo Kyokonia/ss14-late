@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Player: TastelessMax - Character: Drafts-The-Designs
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemDraftsPlushie #emnjineer
+  name: Drafts plushie
+  description: This anxious looking chartreuse plush smells of welding fuel and Starset Sasparilla.
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/drafts-plushie.rsi
+    state: drafts-plushie
+  - type: Item
+    heldPrefix: drafts
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/drafts-plushie.rsi
+    equippedPrefix: drafts
+    slots:
+    - HEAD
+
+
+- type: loadout
+  id: PersonalItemDraftsPlushie
+  storage:
+    back:
+    - PersonalItemDraftsPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Drafts-The-Designs
+  groupBy: "LS Plushies"

@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 DoggowithaKeyboard <gaincarlo48@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: RCOI - Character: Wist Carlene
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: PersonalItemWistMantle
+  name: Wist's HOP mantle
+  description: A slightly bleached mantle that has been through many shifts, its shoulders are reinforced by strips of leather, and it's dotted with pins and embroideries. It has gathered some light green fur from its owner, but it's otherwise well cared for.
+  components:
+  - type: Sprite
+    sprite: _LateStation/PersonalItems/hopmantlewist.rsi
+  - type: Clothing
+    sprite: _LateStation/PersonalItems/hopmantlewist.rsi
+
+- type: loadout
+  id: PersonalItemWistMantle
+  storage:
+    back:
+      - PersonalItemWistMantle
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Wist Carlene

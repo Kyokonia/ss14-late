@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Player: BaguetteYeast - Character: Thriz-Meena
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemThrizPlushie #MEAT!!!!
+  name: Thriz plushie
+  description: The reformed cannibal, hopefully she doesn't get hungry again...
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/thriz-plushie.rsi
+    state: thriz-plushie
+  - type: Item
+    heldPrefix: thriz
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/thriz-plushie.rsi
+    equippedPrefix: thriz
+    slots:
+    - HEAD
+
+- type: loadout
+  id: PersonalItemThrizPlushie
+  storage:
+    back:
+    - PersonalItemThrizPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Thriz-Meena
+  groupBy: "LS Plushies"

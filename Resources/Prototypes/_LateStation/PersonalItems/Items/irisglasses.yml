@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 DoggowithaKeyboard <gaincarlo48@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: Amatiramasu - Character: Iris Voltia-Softcoat
+- type: entity
+  parent: ClothingEyesGlasses
+  id: PersonalItemIrisGlasses
+  name: Iris' glasses
+  description: A pair of spectacular spectacles with prescription lenses.
+  components:
+  - type: Clothing
+    sprite: _LateStation/PersonalItems/irisglasses.rsi
+
+- type: loadout
+  id: PersonalItemIrisGlasses
+  storage:
+    back:
+      - PersonalItemIrisGlasses
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Iris Voltia-Softcoat

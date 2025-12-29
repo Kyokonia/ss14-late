@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 DoggowithaKeyboard <gaincarlo48@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: DoggowithaRocket - Character: Austin Nicholas
+- type: entity
+  parent: ClothingNeckCloakMoth
+  id: PersonalItemAustinMothCloak
+
+- type: loadout
+  id: PersonalItemAustinMothCloak
+  storage:
+    back:
+      - PersonalItemAustinMothCloak
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Austin Nicholas

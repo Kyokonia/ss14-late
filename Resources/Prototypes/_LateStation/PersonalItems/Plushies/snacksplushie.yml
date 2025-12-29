@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Player: Wahwa - Character: Snacks-the-Soy
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemSnacksPlushie #i have no snarky comment so uh yea
+  name: Snacks plushie
+  description: Cold-blooded, warm-hearted
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/snacks-plushie.rsi
+    state: snacks-plushie
+  - type: Item
+    heldPrefix: snacks
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/snacks-plushie.rsi
+    equippedPrefix: snacks
+    slots:
+    - HEAD
+
+- type: loadout
+  id: PersonalItemSnacksPlushie
+  storage:
+    back:
+    - PersonalItemSnacksPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Snacks-The-Soy
+  groupBy: "LS Plushies"

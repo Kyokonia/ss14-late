@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Player: RoseyRose - Character: Rose Snowlight
+-  type: entity
+   parent: BaseMothPlushie
+   id: PersonalItemRosePlushie #I think they might be blind?
+   name: Rose plushie
+   description: A little fluffy scientist, for all your science related needs!
+   components:
+   - type: Sprite
+     sprite: _LateStation/Objects/Fun/Toys/rose-plushie.rsi
+     state: rose-plushie
+
+- type: loadout
+  id: PersonalItemRosePlushie
+  storage:
+    back:
+    - PersonalItemRosePlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Rose Snowlight
+  groupBy: "LS Plushies"

@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLesbianShort
@@ -8,22 +14,6 @@
     sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_short.rsi
   - type: Clothing
     sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_short.rsi
-  - type: Butcherable
-    butcheringType: Knife
-    spawned:
-    - id: MaterialCloth1
-      amount: 1
-
-- type: entity
-  parent: ClothingScarfBase
-  id: ClothingNeckScarfStripedLesbianBurnt
-  name: extra crispy # Signature item, for Annabelle. Sort of.
-  description: A lesbian scarf, partially burnt. Certain to hold a love story.
-  components:
-  - type: Sprite
-    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_burnt.rsi
-  - type: Clothing
-    sprite: _LateStation/Clothing/Neck/Scarfs/PrideScarfs/lesbian_burnt.rsi
   - type: Butcherable
     butcheringType: Knife
     spawned:

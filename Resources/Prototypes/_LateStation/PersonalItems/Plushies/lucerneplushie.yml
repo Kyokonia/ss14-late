@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: SlayerPlayer (Eire) - Character: Lucerne Sanddevil
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemLucernePlushie #HIDE THE VODKA
+  name: Lucerne plushie
+  description: This Lizard can Stomach so much Trauma, and Alcohol
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/lucerne-plushie.rsi
+    state: lucerne-plushie
+  - type: Item
+    heldPrefix: lucerne
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/lucerne-plushie.rsi
+    equippedPrefix: lucerne
+    slots:
+    - HEAD
+
+- type: loadout
+  id: PersonalItemLucernePlushie
+  storage:
+    back:
+    - PersonalItemLucernePlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Lucerne Sanddevil
+  groupBy: "LS Plushies"

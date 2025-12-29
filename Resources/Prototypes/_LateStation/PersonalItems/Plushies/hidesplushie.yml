@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Player: Rellu - Character: Hides-In-Disposals
+- type: entity
+  parent: BaseWehPlushie
+  id: PersonalItemHidesPlushie #attention deprived
+  name: Hides plushie
+  description: Someone's star
+  suffix: PersonalItem
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/hides-plushie.rsi
+    state: hides-plushie
+  - type: Item
+    heldPrefix: hides
+  - type: Clothing
+    quickEquip: false
+    sprite: _LateStation/Objects/Fun/Toys/hides-plushie.rsi
+    equippedPrefix: hides
+    slots:
+    - HEAD
+
+- type: loadout
+  id: PersonalItemHidesPlushie
+  storage:
+    back:
+    - PersonalItemHidesPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Hides-In-Disposals
+  groupBy: "LS Plushies"

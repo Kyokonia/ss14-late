@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2025 LateStation14 contributors
+# SPDX-FileCopyrightText: 2025 LateFinny (GitHub)
+# SPDX-FileCopyrightText: 2025 Late <latemare@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+#Player: TastelessMax - Character: Garret Eggbert
+- type: entity
+  parent: BaseHumanPlushie
+  id: PersonalItemEggbertPlushie #EGG
+  name: Garret plushie
+  description: Human Cargo plush, smells of paper, stamp ink and cigarettes. Looks tired and haunted.
+  components:
+  - type: Sprite
+    sprite: _LateStation/Objects/Fun/Toys/garret-plushie.rsi
+    state: garret-plushie
+
+- type: loadout
+  id: PersonalItemEggbertPlushie
+  storage:
+    back:
+    - PersonalItemEggbertPlushie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Garret Eggbert
+  groupBy: "LS Plushies"
