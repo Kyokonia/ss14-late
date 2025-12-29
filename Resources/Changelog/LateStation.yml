@@ -1175,3 +1175,17 @@ Entries:
       message: Cigarette filters can now be printed from the biogenerator.
   id: 159
   time: '2025-12-15T14:44:36.0000000+00:00'
+- author: LateFinny
+  changes:
+    - type: Add
+      message: Plushies added to personal items for their respective characters.
+    - type: Add
+      message: Restored all the lost personal items from before.
+    - type: Fix
+      message: 'All the custom plushies were restored and reimplemented. '
+    - type: Tweak
+      message: >-
+        Commented out the SV specific personal items. Most of the characters do
+        not exist on LS.
+  id: 160
+  time: '2025-12-29T12:27:57.0000000+00:00'
