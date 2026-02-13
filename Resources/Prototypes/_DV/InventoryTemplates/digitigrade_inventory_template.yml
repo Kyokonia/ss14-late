@@ -15,9 +15,11 @@
       uiWindowPos: 0,1
       strippingWindowPos: 0,2
       displayName: Jumpsuit
-      whitelist:
-        components:
-        - HarpyClothing # Frontier - Harpy
+      # --- START LateStation changes ---
+      # whitelist:
+      #  components:
+      #  - HarpyClothing # Frontier - Harpy
+      # --- END LateStation changes
     - name: outerClothing
       slotTexture: suit
       slotFlags: OUTERCLOTHING
